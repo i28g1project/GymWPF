@@ -20,5 +20,18 @@ namespace GymWPF
         {
             InitializeComponent();
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            main_page main_page = new main_page();
+
+            this.Close();
+            main_page.Show();
+        }
     }
 }

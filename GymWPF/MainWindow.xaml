@@ -8,5 +8,20 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
+        
+        
+        
+        
+
+        <Button Content="Continue" HorizontalAlignment="Left" Margin="345,287,0,0" VerticalAlignment="Top" Height="41" Width="140" Click="Button_Click"/>
+
+        <Label HorizontalAlignment="Center" Content="GYM APP" Margin="0,70,0,0" VerticalAlignment="Top" Height="Auto" Width="Auto" FontSize="50px" />
+        <Label Content="Password" HorizontalAlignment="Left" Margin="256,211,0,0" VerticalAlignment="Top" Height="28" Width="62"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="345,211,0,0" VerticalAlignment="Top" Width="194" Height="28"/>
+        <TextBox HorizontalAlignment="Left" Margin="345,170,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="194" Height="28" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Login" HorizontalAlignment="Left" Margin="256,170,0,0" VerticalAlignment="Top" Height="28" Width="62"/>
+        
+
+
     </Grid>
 </Window>
