@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GymWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fc43895e270afa9a965e8bb8aee564f08583499")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e68d8e403a78e1d44c1971fadd7bbfa0c6124dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("GymWPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GymWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -31,5 +31,13 @@ namespace GymWPF
             this.Close();
             bmi_window.Show();
         }
+
+        private void Protein(object sender, RoutedEventArgs e)
+        {
+            protein_window protein_window = new protein_window();
+
+            this.Close();
+            protein_window.Show();
+        }
     }
 }
