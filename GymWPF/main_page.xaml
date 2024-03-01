@@ -23,7 +23,7 @@
             <Button Grid.Row="1" FontSize="20px">Diet</Button>
             <Button Grid.Row="2" FontSize="20px">Shedule</Button>
             <Button Grid.Row="3" FontSize="20px">Goals</Button>
-            <Button Grid.Row="4" FontSize="20px">History</Button>
+            <Button Grid.Row="4" FontSize="20px" Click="Button_Click">BMI</Button>
         </Grid>
 
         <Image Margin="151,10,151,90" Source="/gymapp.jpg" Stretch="Fill"/>

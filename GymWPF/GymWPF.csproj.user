@@ -7,7 +7,21 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="bmi_window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="main_page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="bmi_window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="main_page.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
