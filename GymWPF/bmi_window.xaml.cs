@@ -37,11 +37,15 @@ namespace GymWPF
         }
         private void Calculate_BMI(object sender, RoutedEventArgs e)
         {
-             h = int.Parse(height.Text);
-             w = int.Parse(weight.Text);
-            Console.WriteLine(h.ToString(), w.ToString());
-             bmi = (w / ((h / 100)* (h / 100)));
-             BMI.Content = "Your BMI: " + bmi.ToString();
+            if (height.Text != "" && height.Text != "")
+            {
+                h = int.Parse(height.Text);
+                w = int.Parse(weight.Text);
+                Console.WriteLine(h.ToString(), w.ToString());
+                bmi = (w / ((h / 100) * (h / 100)));
+                BMI.Content = "Your BMI: " + bmi.ToString();
+            }
+             
         }
         private void NumberValidationTextBox(object sender, TextCompositionEventArgs e)
         {
