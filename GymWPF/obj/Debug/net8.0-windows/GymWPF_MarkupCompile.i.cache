@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\ytpan\source\repos\GymWPF\GymWPF\App.xaml
-11407045341
+4815551847
 
-6299440802
+9-109482662
 198-294894759
-MainWindow.xaml;
+bmi_window.xaml;MainWindow.xaml;main_page.xaml;protein_window.xaml;
 
-False
+True
 
